@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'personal-site';
+  loadingText = this.title + ' loading';
+
+  ngOnInit() {
+    console.log('The site isn\'t actually loading, it\'s still under construction... shh')
+  }
 }
